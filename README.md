@@ -20,12 +20,12 @@ Laravel Mix provides a few helpful commands while you are developing your theme.
 ```
 npm run dev
 ```
-Run dev compiles the assets but does not minify. Useful for seeing the full source.
+Compiles the assets but does not minify them. Useful for seeing your unminified assets.
 
 ```
 npm run production
 ```
-Run production compiles and minifies, ready for you to push to production.
+Compiles and minifies your assets, ready for you to push to production.
 
 
 ```
@@ -33,4 +33,4 @@ npm run watch
 ```
 This keeps a watch on your files and if any change, then it runs the dev command automatically.
 
-You can see a full list of the laravel mix commands (https://laravel.com/docs/5.4/mix)[here]. 
+You can see a full list of the laravel mix commands [here](https://laravel.com/docs/5.4/mix). Note that `.version()` won't work for versioning/cache busting but isn't necessary anyway as this is achieved in functions.php using `filemtime()`.
