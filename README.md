@@ -33,4 +33,8 @@ npm run watch
 ```
 This keeps a watch on your files and if any change, then it runs the dev command automatically.
 
-You can see a full list of the laravel mix commands [here](https://laravel.com/docs/5.4/mix). Note that `.version()` won't work for versioning/cache busting but isn't necessary anyway as this is achieved in functions.php using `filemtime()`.
+---
+
+You can see a full list of the laravel mix commands [here](https://laravel.com/docs/5.4/mix). 
+
+Note that `.version()` won't work for versioning/cache busting but isn't necessary anyway as this is achieved in functions.php using `filemtime()`.
